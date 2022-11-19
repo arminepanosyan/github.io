@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+.myName {
+    text-align: center;
+    color: purple;
+}
+
+.image {
+    width: 15%;
+    height: 287px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.edu {
+    text-align: center;
+    font-weight: bold;
+    font-size: 33px;
+}
+
+.myEdu{
+    border: 1px solid rgb(34, 148, 224);
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    width: 15%;
+    margin: auto;
+    font-size: 18px;
+    color: rgb(228, 72, 0);
+}
+
+
+
+.extra {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgb(34, 148, 224);
+}
+
+.extra div{
+    border: 3px solid purple;
+}
+
+div {
+    border: 1px solid black;
+    margin: 4px;
+}
+
+.newImg{
+    border: 1px solid rgb(34, 148, 224);
+}
+
+.imgs{
+    float: left;
+    width: 14%;
+    margin-left: 10%;
+    border: none;
+}
+
+.i2{
+    margin-left: 21%;
+    width: 9%;
+}
+
+.i3{
+    margin-left: 24%;
+    width: 11%;
+}
